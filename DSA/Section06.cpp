@@ -112,3 +112,10 @@
 //BASE =L
 //A[M,N,R]=L+(M*J*K+N*K+R) ROW BASED
 //A[M,N,R]=L+[R*J*I+N*I+M] COLUMN BASED
+
+//TO ACCESS LOCATION IF BASE LOCATION IS GIVEN
+// SAY HAVE TO ACCESS MATRIX MAI 2,3
+// BASE LOCATION X
+// *(*(X+2)+3)
+//if instead of two stars only one star then i get address
+//without star also address only
