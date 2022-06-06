@@ -72,3 +72,61 @@
 
     //1 BYTE LO
     //INDEXING ULTA CZ LSB TO MSB
+    //toh 0 to 7 ho gi indexing ab can represent in the form of binary till 127
+    //LEFT SHIFT MEANS *2
+    //: OR OPERATION CANN BE REPRESENTED BY :
+    //MERGING N MASKING
+    //CHECKING IF ON N OFF MASKING
+
+    //JAISE USED TO TAKE HASH TABEL 0-25 PAR BYTE WISE KARTE HAIN AB TOH NEAREST MULTIPLE 32
+    //4 BYTES LE LIYE
+    //IF ALPHABET APPEARS TURN THAT BIT ON
+    //BEFORE TURNING A BIT ON WE CHECK IF ITS ALREADY ON OR NOT
+    //CREATE ANOTHER ARRAY OF SAME SIZE
+    //N DO MASKING
+    //AS IN WHEN SOMETHIGN APPEARS
+    //PLACE IT IN SECOND ARRAY
+    //THEN OD AND IF 1 THAT MEANS ALREADY THERE
+    //IF 0 MEANS CAN BE ADDED
+
+//PERMUTATIONS OF A STRING
+    //FORM A TREE
+    //A STATE SPACE TREE
+    //BACKTRACKING
+    //USE RECURSION
+    //FOR BRUTE FORCE
+    //FLAG ARRAY LO 
+    //USE 1 KARTE JAO JAB KUCH USE KARO
+    //FER BACKTRACK KARO
+    //IF FOUND 1 TURN IT TO ZERO
+    //FUNCTION WILL LOOK LIKE
+
+    // void perm(char st[], int k){
+    //     static int a[10]={0};
+    //     static char res[10];
+    //     int i;
+    //     if(s[k]=='\0'){
+    //         res[k]='\0';
+    //         cout<<res;
+    //     }
+    //     else{
+    //     for(i=0;st[i]!=0;i++){
+    //         if(a[i]==0){
+    //             res[k]=st[i];
+    //             a[i]=1;
+    //             perm(st,k+1);
+    //             a[i]=0;
+
+    //         }
+    //     }
+    //     }
+
+    // }
+
+    
+
+
+
+
+
+
