@@ -26,7 +26,53 @@
 //IF N IS THE SIZE OF THE MATRIX
 //IF INDEXED STARTING FROM 1
 
+
+//UPPER TRIANGULAR MATRIX
+//SAB SAME AS LOWER TRAINGULAR BAS J INSTEAD OF I IN CONDITION
+//N*N+1/2 NO. OF NON ZERO ELEMENTS SO YEH BHI SORTED
+//ROW MAJOR OR COLUMN MAJOR
+//DERIVE THE FORMULA N JUST FOLLLOW THE SAME PROCEDURE AS LOWER TRIANGULAR MATRIX
+
+//I PERSONALLY FEEL THAT THE DERIVED FORMULA IS MUCH EASIER IN THE CASE OF ROW MAJOR MAPPING ALWAYS
+//FOR UPPER TRIANGULAR COLUMN MAJOR MAPPED FORMULA IS SAME AS ROW MAJOR MAPPED FORMULA OF LOWER TRIANGULAR MATRIX
+//BUT WHATSOEVER ITS ALWAYS EASIER TO JUST DERIVE IT N WORK ON IT
  
+ //SYMMETRIX MATRIX
+ //M[I][J]=M[J][I]
+ 
+ //TRIDIAGONAL MATRIX
+ //3 DIAGONALS
+ //MAIN WALE KE EK UOAR EK NEECHE
+ //CONDITION THAT CAN BE USED
+ //I-J=0
+ //I-J=1
+ //I-J=-1
+ //3N-2 ELEMENTS
+ //FILL THE STORAGE ARRAY DIAGONAL WISE
+ //SO EASY SHIT
+ //CREATE A SEPARATE CONDIITON FOR EACH ARRAY N SORT THE STORAGE SHIT
+ //THEN WHILE DISPALYING JUST CALL IT
+
+ //SQUARE BAND MATRIX
+ //MORE THAN ONE DIAGONALS ON EACH SIDE OF THE MAIN DIAGONAL
+
+
+ //TOEPLITZ MATRIX
+ //ALL NON ZERO ELEMENTS
+ //ELEMENTS IN A DIAGONAL ARE ALWAYS THE SAME
+ //MAPPING KARNE KA BHI APPROACH 
+ //WHAT WE TAKE PEHLE ROW THEN COLUMN
+ //THEN CREATE 
+ //FORMULA FOR THE SAME
+ //TO ACCESS ELEMENTS FOR THE MATRIX FROM THE ARRAY
+
+
+ //WHEN MAKING MENU NEED TO DO IT LIKE THIS
+ //SWITCH(X){
+//      CASE X=1:
+//BREAK;
+//  }
+
 
 
 
@@ -34,67 +80,67 @@
 
 
 //DIAGONAL MATRIX
- #include <iostream>
- using namespace std;
+//  #include <iostream>
+//  using namespace std;
 
- class matrix{
-     private:
-     int *c;
-     int u;
-    //CONSTRUCTOR
-    public:
-     matrix(){
-         int n;
-         n=2;
-         c=new int [n];
-     }
+//  class matrix{
+//      private:
+//      int *c;
+//      int u;
+//     //CONSTRUCTOR
+//     public:
+//      matrix(){
+//          int n;
+//          n=2;
+//          c=new int [n];
+//      }
 
-     matrix(int l){
-     u=l; 
-     c= new int [l];
-     }
+//      matrix(int l){
+//      u=l; 
+//      c= new int [l];
+//      }
 
-     void set(int i, int j, int r){
-         if(i==j){
-           c[i]=r;  
-         }
-     }
-     int get(int i,int j){
-         if(i==j){
-             return c[i];
-         }
-         else{
-             return 0;
-         }
-     }
-     void display(){
-         int i;
-         int j;
-         for(i=0;j<u;j++){
-             for(j=0;j<u;j++){
-                 if(i==j){
-                     cout<<c[i]<<endl;
-                 }
-                 else{
-                     cout<<"0"<<endl;
-                 }
-             }
-         }
-     }
- };
- //agar func ko bahar define karna ho toh scope
- //void matrix::set(int i, int j, int x){}
- int main(){
-     class matrix x(5);
-     x.set(0,0,1);
-     x.set(1,1,1);
-     x.set(2,2,1);
-     x.set(3,3,1);
-     x.set(4,4,1);
-     x.display();
-    // delete []x.c;
+//      void set(int i, int j, int r){
+//          if(i==j){
+//            c[i]=r;  
+//          }
+//      }
+//      int get(int i,int j){
+//          if(i==j){
+//              return c[i];
+//          }
+//          else{
+//              return 0;
+//          }
+//      }
+//      void display(){
+//          int i;
+//          int j;
+//          for(i=0;j<u;j++){
+//              for(j=0;j<u;j++){
+//                  if(i==j){
+//                      cout<<c[i]<<endl;
+//                  }
+//                  else{
+//                      cout<<"0"<<endl;
+//                  }
+//              }
+//          }
+//      }
+//  };
+//  //agar func ko bahar define karna ho toh scope
+//  //void matrix::set(int i, int j, int x){}
+//  int main(){
+//      class matrix x(5);
+//      x.set(0,0,1);
+//      x.set(1,1,1);
+//      x.set(2,2,1);
+//      x.set(3,3,1);
+//      x.set(4,4,1);
+//      x.display();
+//     // delete []x.c;
 
- }
+//  }
 
 
 
