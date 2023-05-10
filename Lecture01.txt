@@ -1,0 +1,22 @@
+LECTURE 01
+
+Steps:
+-Understand the problem
+-Look at given values
+-Decide an approach
+-Make a program
+
+
+Problem hai solution nikaalna hai, form a rough solution; pseudocode.
+
+Kya kya cheezein lagaunga, high level language mai likha. Convert to zeroes n ones so machine understandable language ho jaaye.
+
+FLOWCHART:
+Approach in a diagramatic form. 
+Start n end state ke liye keep terminator.
+Parallelogram for I/O 
+Diamond for conditionals.
+Rectangular block to show process.
+
+
+
