@@ -32,7 +32,7 @@ void print(Node* tail){
 
     while(temp->next!=tail){
         
-        cout<<temp->data<<" ";
+        cout<<temp->data<<" ";ww
         temp=temp->next;
 
     }
