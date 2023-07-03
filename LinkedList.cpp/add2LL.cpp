@@ -1,0 +1,4 @@
+//approach
+
+
+//rveerse karke add
